@@ -1,69 +1,13 @@
 proxies:
-    - name: Http|日本
-     server: jc.ap.fastqvpn.com
-     port: 29980
-     type: http
-     username: "442993652168396800"
-     password: 2ef91648-089f-4c81-b34d-06f072ec51dd
-     tls: true
-     skip-cert-verify: true
-    - name: Http|法国
-     server: fr.gotochinatown.net
-     port: 10910
-     type: http
-     username: "yaojiayu246@gmail.com"
-     password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d
-     tls: true
-    - name: Http|PCCW|香港
-     server: pccw.stunnel.vip 
-     port: 4700
-     type: http
-     username: "yaojiayu246@gmail.com"
-     password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d
-     tls: true
-    - name: Http|印度
-     server: in.gotochinatown.net
-     port: 10884
-     type: http
-     username: "yaojiayu246@gmail.com"
-     password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d
-     tls: true
-    - name: Http|德国
-     server: de.gotochinatown.net
-     port: 10887 
-     type: http
-     username: "2068459124@qq.com"
-     password: 8cccbc36-4355-11ec-a8bf-f23c91cfbbc9
-     tls: true
-    - name: Http|新西兰
-     server: nz.gotochinatown.net
-     port: 10920
-     type: http
-     username: "yaojiayu246@gmail.com"
-     password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d
-     tls: true
-    - name: Http|德国02
-     server: de.gotochinatown.net
-     port: 10887
-     type: http
-     username: "yaojiayu246@gmail.com"
-     password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d
-     tls: true
-    - name: Http|英国
-     server: uk.gotochinatown.net
-     port: 10882
-     type: http
-     username: "yaojiayu246@gmail.com"
-     password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d
-     tls: true
-    - name: Http|澳大利亚
-     server: au.gotochinatown.net
-     port: 10930
-     type: http
-     username: "yaojiayu246@gmail.com"
-     password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d
-     tls: true
-     skip-cert-verify: true
+    - {name: Http|日本, server: jc.ap.fastqvpn.com, port: 29980, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+    - {name: Http|法国, server: fr.gotochinatown.net, port: 10910, type: http, username: "yaojiayu246@gmail.com", password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, tls: true}
+    - {name: Http|PCCW|香港, server: pccw.stunnel.vip, port: 4700, type: http, username: "yaojiayu246@gmail.com", password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, tls: true}
+    - {name: Http|印度, server: in.gotochinatown.net, port: 10884, type: http, username: "yaojiayu246@gmail.com", password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, tls: true}
+    - {name: Http|德国, server: de.gotochinatown.net, port: 10887, type: http, username: "2068459124@qq.com", password: 8cccbc36-4355-11ec-a8bf-f23c91cfbbc9, tls: true}
+    - {name: Http|新西兰, server: nz.gotochinatown.net, port: 10920, type: http, username: "yaojiayu246@gmail.com", password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, tls: true}
+    - {name: Http|德国02, server: de.gotochinatown.net, port: 10887, type: http, username: "yaojiayu246@gmail.com", password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, tls: true}
+    - {name: Http|英国, server: uk.gotochinatown.net, port: 10882, type: http, username: "yaojiayu246@gmail.com", password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, tls: true}
+    - {name: Http|澳大利亚, server: au.gotochinatown.net, port: 10930, type: http, username: "yaojiayu246@gmail.com", password: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, tls: true, skip-cert-verify: true}
     - {name: 🇭🇰 一键连广港 1, server: 183.240.9.28, port: 29979, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
     - {name: 🇭🇰 一键连广港 2, server: 183.240.9.28, port: 29980, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
     - {name: 🇭🇰 一键连广港 3, server: 183.240.9.28, port: 29982, type: http, username: "442993652168396800", password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
